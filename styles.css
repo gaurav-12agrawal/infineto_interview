@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+
+    width: 100%;
+    display: flex;
+    height: 400px;
+    background-color: black;
+}
+
+.top-1 {
+    width: 50%;
+    background-image: url(./1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-2-up {
+    height: 50%;
+    background-image: url(./2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-2-bottom {
+    height: 50%;
+    background-image: url(./3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.last {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+}
+
+.mid {
+    display: flex;
+    width: 50%;
+    background-color: gray;
+    flex-direction: column;
+}
+
+.mid-up {
+    width: 100%;
+    height: 45%;
+    background-image: url(./5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mid-bottom {
+    width: 100%;
+    background-image: url(./4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55%;
+}
+
+
+.bottom {
+    display: flex;
+    width: 50%;
+    background-color: gray;
+    flex-direction: column;
+}
+
+.bottom-up {
+    width: 100%;
+    height: 60%;
+    background-image: url(./6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom-bottom {
+    width: 100%;
+    background-image: url(./7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+.main {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+
+    top: 70%;
+    left: 45%;
+
+}
+
+p {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+button {
+    margin-top: 40px;
+    background-color: #FA6650;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10%;
+}
+
+@media screen and (max-width:1260px) {
+    botton {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .main {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .main {
+        left: 30%;
+    }
+}
